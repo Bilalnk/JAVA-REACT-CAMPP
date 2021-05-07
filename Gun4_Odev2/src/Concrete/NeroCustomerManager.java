@@ -7,7 +7,7 @@ import Entities.Customer;
 public class NeroCustomerManager extends BaseCustomerManager {
 
 
-    ICustomerCheckService _customerCheckService;
+    ICustomerCheckService _customerCheckService;  //
 
     public NeroCustomerManager(ICustomerCheckService _customerCheckService) {
     	this._customerCheckService = _customerCheckService;
