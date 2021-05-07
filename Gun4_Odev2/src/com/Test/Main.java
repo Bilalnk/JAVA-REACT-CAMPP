@@ -1,4 +1,4 @@
-package com.company;
+package com.Test;
 
 import Abstract.BaseCustomerManager;
 import Adapter.MernisServiceAdapter;
