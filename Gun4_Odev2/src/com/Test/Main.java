@@ -18,7 +18,7 @@ public class Main {
 
             
         
-        customerManager.save(new Customer(1,"Bilal Nadir", "Karataş", new Date(1999,1,26), "23828370766"));
+        customerManager.save(new Customer(1,"Bilal Nadir", "KarataÃ¾", new Date(1999,1,26), "111111111"));
 
         System.out.println();
     }
