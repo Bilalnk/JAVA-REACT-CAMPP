@@ -37,7 +37,7 @@ public class ProductManager implements ProductService {
     public Result add(Product product) {
 
         this.productdao.save(product);
-        return new SuccessResult(true, "Ekleme Başarılı");
+        return new SuccessResult("Ekleme Başarılı");
     }
 
     @Override

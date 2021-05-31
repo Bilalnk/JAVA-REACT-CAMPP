@@ -2,7 +2,7 @@ package kodlamaio.northwind.core.utilites.result;
 
 public class SuccessResult extends Result{
 
-	public SuccessResult(boolean success, String message) {
+	public SuccessResult( String message) {
 		super(true, message);
 	}
 
